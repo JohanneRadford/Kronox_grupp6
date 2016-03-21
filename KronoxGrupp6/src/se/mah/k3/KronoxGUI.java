@@ -1,4 +1,9 @@
+<<<<<<< Updated upstream
                          package se.mah.k3;
+=======
+
+package se.mah.k3;
+>>>>>>> Stashed changes
 
 import java.awt.BorderLayout;
 import java.util.*;
@@ -47,17 +52,6 @@ public class KronoxGUI extends JFrame {
 	public ArrayList<Parser> PAR = new ArrayList<Parser>();
 	private ParserNew parserNew;
 	private JScrollPane scrollPane;
-	
-	
-/**
-	Timer tm;
-	int x = 0;
-	
-	String[] list = {
-			"/Users/johanneradford/Desktop/1.png",
-			"/Users/johanneradford/Desktop/2.png",
-	};
-	*/
 	
 
 
@@ -252,20 +246,6 @@ public class KronoxGUI extends JFrame {
 		contentPane.add(moment1);
 		
 
-		
-	//TEST PARSER
-	//PAR = parser.ParserKurs();
-		
-	//	for(int i = 0; i < PAR.size(); i ++){
-		
-		//	JLabel testKurs = new JLabel((Icon) PAR.get(i));
-			//testKurs.setBounds(134, 77, 187, 115);
-		//	contentPane.add(PAR);
-			//testKurs.add(PAR);
-		
-		
-
-
 		JTextArea moment3 = new JTextArea();
 		moment3.setText("Seminarium halva klassen:\nmiljöledning i transportföretag");
 		moment3.setFont(new Font("Futura", Font.PLAIN, 10));
@@ -309,18 +289,7 @@ public class KronoxGUI extends JFrame {
 		parserNew = new ParserNew(this);
 		
 		parserNew.parse();
-		
-	/**	PAR = parser.ParserKurs();
-		
-		
-		class getScheduleFromKronox extends Thread{
-			@Override
-			public void run(){
-				PAR = parser.ParserKurs();
-			}
-			
-		}
-		*/
+	
 	}
 
 

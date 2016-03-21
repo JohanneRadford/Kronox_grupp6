@@ -14,9 +14,12 @@ import org.w3c.dom.Element;
 
 
 public class ParserNew {
+	
 	ArrayList<String> time = new ArrayList<String>();
 	
 	ArrayList<Parser> superDone = new ArrayList<Parser>();
+	
+	ArrayList<ParserMoment> momentList = new ArrayList<ParserMoment>();
 	
 	KronoxGUI gui;
 	
@@ -57,14 +60,7 @@ public class ParserNew {
 		        			
 
 		        			info = eElement.getTextContent().replace("&#246;", "ö").replace("&#214;", "Ö").replace("&#228;", "ä").replace("&#229;", "å").replace("<br>", " ").replace("&#822;1", " ").replace("&#233;","è").replace("<br />", " ").replace("&#196;", "Ä").replace("<strong>", " ").replace("</strong>", " ").replace("&#8217;", "´").replace("&#8216", "`").replace("&amp;", "&");
-
-		        			
-
-		        				
-		        			
 		    			
-
-
 		                }
 		            }
 			
@@ -124,6 +120,7 @@ public class ParserNew {
 				
 				
 				superDone.add(new Parser(info, room, teacher, startTid, slutTid));
+				momentList.add(new ParserMoment(info));
 			}
 		}
 		catch (Exception e)
@@ -132,15 +129,20 @@ public class ParserNew {
         }
 		
 		for(int h = 0; h < superDone.size(); h++){
+		
 			
 			
 			
 		System.out.println(superDone.get(h).toString());
 		
-		gui.kurs1.append(superDone.get(h).toString());
+		//gui.kurs1.append(superDone.get(h).toString());
 			
             
 			
+		}
+		for(int r = 0; r < momentList.size(); r++){
+		gui.kurs1.append(momentList.get(r) + "\n");
+		
 		}
 		
 		
