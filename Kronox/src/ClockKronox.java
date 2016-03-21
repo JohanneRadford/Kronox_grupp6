@@ -1,4 +1,3 @@
-//hej
 import java.util.Calendar;
 import java.util.*;
 import javax.swing.*;
