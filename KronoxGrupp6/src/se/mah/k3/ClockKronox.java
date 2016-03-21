@@ -1,3 +1,4 @@
+package se.mah.k3;
 
 import java.util.Calendar;
 import java.util.*;
@@ -7,7 +8,6 @@ import java.awt.image.*;
 import java.awt.event.*;
 import java.util.Random;
 import javax.swing.Timer;
-
 import javax.swing.JOptionPane;
 
 

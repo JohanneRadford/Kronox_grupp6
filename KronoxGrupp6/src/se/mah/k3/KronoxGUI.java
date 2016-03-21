@@ -1,3 +1,4 @@
+package se.mah.k3;
 
 import java.awt.BorderLayout;
 import java.util.*;
@@ -33,7 +34,7 @@ public class KronoxGUI extends JFrame {
 	private JLabel lblNiagara;
 	private JLabel lblSchedule;
 	private JLabel lblNewLabel_1;
-	private JTextArea kurs1;
+	public JTextArea kurs1;
 	private JLabel moment1;
 	private JLabel room1;
 	private JLabel time1;
@@ -44,6 +45,9 @@ public class KronoxGUI extends JFrame {
 	private String kurs;// = "course";
 
 	public ArrayList<Parser> PAR = new ArrayList<Parser>();
+	private ParserNew parserNew;
+	private JScrollPane scrollPane;
+	
 	
 /**
 	Timer tm;
@@ -220,15 +224,17 @@ public class KronoxGUI extends JFrame {
 		//room1.setBounds(315, 174, 61, 49);
 		room1.setBounds(630, 310, 126, 70);
 		contentPane.add(room1);
+		
+		scrollPane = new JScrollPane();
+		scrollPane.setBounds(260, 320, 297, 284);
+		contentPane.add(scrollPane);
 	
 		
 		//KURSER
 		kurs1 = new JTextArea();
-		kurs1.setText("Verksamhetsförlagd utbildning\nVFU\n");
+		scrollPane.setViewportView(kurs1);
+		kurs1.setRows(30);
 		kurs1.setFont(new Font("Futura", Font.PLAIN, 18));
-		//kurs1.setBounds(103, 187, 151, 34);
-		kurs1.setBounds(260, 320, 297, 60);
-		contentPane.add(kurs1);
 		
 
 			
@@ -315,6 +321,10 @@ public class KronoxGUI extends JFrame {
 		
 		
 		clockKronox = new ClockKronox(this);
+		
+		parserNew = new ParserNew(this);
+		
+		parserNew.parse();
 		
 	/**	PAR = parser.ParserKurs();
 		
