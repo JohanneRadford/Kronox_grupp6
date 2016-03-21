@@ -297,7 +297,7 @@ public class KronoxGUI extends JFrame {
 		
 		kurs1 = new JTextArea();
 		kurs1.setFont(new Font("Futura", Font.PLAIN, 28));
-		kurs1.setBounds(27, 316, 1050, 1920);
+		kurs1.setBounds(27, 332, 569, 1904);
 		contentPane.add(kurs1);
 		/**
 		timeTextArea = new JTextArea();

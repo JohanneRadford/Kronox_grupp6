@@ -10,12 +10,12 @@ public class Parser {
 	private String moment;
 	
 
-	public Parser(String moment, String lokal, String kurs, String startTime, String endTime) {
-		this.lokal = lokal;
+	public Parser(String kurs, String startTime, String endTime) {
+		
 		this.kurs = kurs;
 		this.endTime = endTime;
 		this.startTime = startTime;
-		this.moment = moment;
+		
 		
 	}
 	
@@ -37,7 +37,7 @@ public class Parser {
 	
 
 	public String toString(){
-		String string =  startTime + "-" + endTime + "\t "  + kurs + "\t "  + lokal + " \t"  + moment + "\n" ;
+		String string =  startTime + "-" + endTime + "\t "  + kurs + "\n " ;
 		return string;
 	}
 	

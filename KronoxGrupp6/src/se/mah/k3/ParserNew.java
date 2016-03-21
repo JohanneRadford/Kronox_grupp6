@@ -32,9 +32,8 @@ public class ParserNew {
 		
 	}
 	
-<<<<<<< Updated upstream
-	public void parse()
-    {
+
+    
 	
 		
 		String room = "";
@@ -42,7 +41,6 @@ public class ParserNew {
 		String teacher = "";
 		String startTid = "";
     	String slutTid = "";
-=======
 
 		
 		public ArrayList<Parser> parse() {	
@@ -53,7 +51,7 @@ public class ParserNew {
 		String startTid = null;
     	String slutTid = null;
     	CourseNames names = new CourseNames();
->>>>>>> Stashed changes
+
     	
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		try{
@@ -141,7 +139,7 @@ public class ParserNew {
 				
 				if (teacher.length()>0){
 					
-			superDone.add(new Parser(info, room, teacher, startTid, slutTid));
+			superDone.add(new Parser(teacher, startTid, slutTid));
 			
 				}
 				
