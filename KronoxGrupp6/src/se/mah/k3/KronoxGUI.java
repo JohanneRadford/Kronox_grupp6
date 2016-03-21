@@ -46,6 +46,8 @@ public class KronoxGUI extends JFrame {
 	private Parser parser;
 	private Test test;
 	private String kurs;// = "course";
+	
+	private Font Futura;
 
 	public ArrayList<Parser> PAR = new ArrayList<Parser>();
 	private ParserNew parserNew;
@@ -59,6 +61,11 @@ public class KronoxGUI extends JFrame {
 		labelDate.setText(date);
 		
 	}
+	
+
+	//Typeface tf = Typeface.createFromAsset(getApplicationContext().getAssets(),"fonts/Futura_ICG_Book_Oblique.ttf");
+	//textview.setTypeface(tf);
+
 
 
 	
@@ -286,6 +293,8 @@ public class KronoxGUI extends JFrame {
 		textArea_11.setBounds(0, 2010, 1080, 80);
 		contentPane.add(textArea_11);
 		
+		Typeface.createFromAsset(getAssets(), "fonts/Futura_ICG_Book_Oblique.ttf");
+		
 		kurs1 = new JTextArea();
 		kurs1.setFont(new Font("Futura", Font.PLAIN, 28));
 		kurs1.setBounds(27, 316, 1050, 1920);
@@ -303,6 +312,7 @@ public class KronoxGUI extends JFrame {
 		parserNew = new ParserNew(this);
 		
 		parserNew.parse();
+		
 	
 	}
 }
