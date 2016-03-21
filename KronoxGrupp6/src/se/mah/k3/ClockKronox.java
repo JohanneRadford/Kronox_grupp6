@@ -52,7 +52,7 @@ public class ClockKronox {
 				digKronoxGUI.setDateOnLabel(addZero(day) + " / "+ addZero(month + 1) + " - " + addZero(year));
 			
 
-				digKronoxGUI.setTimeOnLabel(addZero(hour) + " : "+ addZero(min) );
+				digKronoxGUI.setTimeOnLabel(addZero(hour) + ":"+ addZero(min) );
 				
 				
 			
