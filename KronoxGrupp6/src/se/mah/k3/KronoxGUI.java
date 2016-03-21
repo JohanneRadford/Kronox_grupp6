@@ -279,7 +279,48 @@ public class KronoxGUI extends JFrame {
 		textArea_4.setBounds(0, 800, 1080, 70);
 		contentPane.add(textArea_4);
 		
+		JTextArea textArea_5 = new JTextArea();
+		textArea_5.setForeground(Color.PINK);
+		textArea_5.setBackground(new Color(155, 45, 45, 30));
+		textArea_5.setBounds(0, 940, 1080, 70);
+		contentPane.add(textArea_5);
+		
+		JTextArea textArea_6 = new JTextArea();
+		textArea_6.setForeground(Color.PINK);
+		textArea_6.setBackground(new Color(155, 45, 45, 30));
+		textArea_6.setBounds(0, 1080, 1080, 70);
+		contentPane.add(textArea_6);
+		
+		JTextArea textArea_7 = new JTextArea();
+		textArea_7.setForeground(Color.PINK);
+		textArea_7.setBackground(new Color(155, 45, 45, 30));
+		textArea_7.setBounds(0, 1260, 1080, 70);
+		contentPane.add(textArea_7);
+		
+		JTextArea textArea_8 = new JTextArea();
+		textArea_8.setForeground(Color.PINK);
+		textArea_8.setBackground(new Color(155, 45, 45, 30));
+		textArea_8.setBounds(0, 1400, 1080, 70);
+		contentPane.add(textArea_8);
+		
+		JTextArea textArea_9 = new JTextArea();
+		textArea_9.setForeground(Color.PINK);
+		textArea_9.setBackground(new Color(155, 45, 45, 30));
+		textArea_9.setBounds(0, 1540, 1080, 70);
+		contentPane.add(textArea_9);
+		
+		JTextArea textArea_10 = new JTextArea();
+		textArea_10.setForeground(Color.PINK);
+		textArea_10.setBackground(new Color(155, 45, 45, 30));
+		textArea_10.setBounds(0, 1720, 1080, 70);
+		contentPane.add(textArea_10);
 
+		JTextArea textArea_11 = new JTextArea();
+		textArea_11.setForeground(Color.PINK);
+		textArea_11.setBackground(new Color(155, 45, 45, 30));
+		textArea_11.setBounds(0, 1900, 1080, 20);
+		contentPane.add(textArea_11);
+		
 		clockKronox = new ClockKronox(this);
 		
 		parserNew = new ParserNew(this);
