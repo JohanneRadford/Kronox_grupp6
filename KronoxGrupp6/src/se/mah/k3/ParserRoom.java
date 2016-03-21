@@ -11,7 +11,7 @@ public class ParserRoom {
 	}
 	
 	public String toString(){
-		String string =  room + "\t" +  moment + "\n";
+		String string =  room + " " + " " + " " + moment + "\n"+ "\n ";
 		return string;
 	}
 
