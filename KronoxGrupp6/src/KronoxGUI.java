@@ -33,8 +33,11 @@ public class KronoxGUI extends JFrame {
 	private JLabel lblNiagara;
 	private JLabel lblSchedule;
 	private JLabel lblNewLabel_1;
+	private JTextArea kurs1;
+	private JLabel moment1;
+	private JLabel room1;
 	private JLabel time1;
-	private JTextArea room7;
+	
 	private ClockKronox clockKronox;
 	private Parser parser;
 	private Test test;
@@ -210,7 +213,7 @@ public class KronoxGUI extends JFrame {
 		
 		
 		//ROOMS
-		JLabel room1 = new JLabel("A0513");
+		room1 = new JLabel("A0513");
 		room1.setForeground(Color.BLACK);
 		room1.setFont(new Font("Futura", Font.PLAIN, 25));
 		room1.setBackground(Color.BLACK);
@@ -220,9 +223,7 @@ public class KronoxGUI extends JFrame {
 	
 		
 		//KURSER
-
-		
-		JTextArea kurs1 = new JTextArea();
+		kurs1 = new JTextArea();
 		kurs1.setText("Verksamhetsförlagd utbildning\nVFU\n");
 		kurs1.setFont(new Font("Futura", Font.PLAIN, 18));
 		//kurs1.setBounds(103, 187, 151, 34);
@@ -232,12 +233,11 @@ public class KronoxGUI extends JFrame {
 
 			
 			
-		//txtrDatavetenskapOchApplikationsutveckling.setText(parser.ParserKurs());
 
 
 		
 		//MOMENT
-		JLabel moment1 = new JLabel("Obligatory seminar (1 ECTS)");
+		moment1 = new JLabel("Obligatory seminar (1 ECTS)");
 		moment1.setForeground(Color.BLACK);
 		moment1.setFont(new Font("Futura", Font.PLAIN, 18));
 		moment1.setBackground(Color.BLACK);
@@ -261,20 +261,7 @@ public class KronoxGUI extends JFrame {
 			//testKurs.add(PAR);
 		
 		
-<<<<<<< Updated upstream
 
-=======
-		JTextArea moment3 = new JTextArea();
-		moment3.setText("Seminarium halva klassen:\nmiljöledning i transportföretag");
-		moment3.setFont(new Font("Futura", Font.PLAIN, 10));
-		moment3.setBackground(new Color(255, 228, 225));
-		//moment3.setBounds(388, 285, 120, 34);
-		moment3.setBounds(776, 570, 120, 34);
-		contentPane.add(moment3);
-	
-		
-		
->>>>>>> Stashed changes
 
 		//test.superDone.add()
 			
@@ -301,12 +288,15 @@ public class KronoxGUI extends JFrame {
 		
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 
 		
 =======
 =======
 >>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		
 		//RADER
@@ -352,8 +342,12 @@ public class KronoxGUI extends JFrame {
 		}
 		*/
 	}
+<<<<<<< Updated upstream
 
 <<<<<<< Updated upstream
 }
 =======
+>>>>>>> Stashed changes
+=======
+}
 >>>>>>> Stashed changes
