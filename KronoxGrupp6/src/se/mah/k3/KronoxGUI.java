@@ -1,4 +1,4 @@
-package se.mah.k3;
+                         package se.mah.k3;
 
 import java.awt.BorderLayout;
 import java.util.*;
@@ -118,9 +118,9 @@ public class KronoxGUI extends JFrame {
 		contentPane.setLayout(null);
 		
 		labelTime = new JLabel("");
-		labelTime.setFont(new Font("Futura", Font.PLAIN, 80));
+		labelTime.setFont(new Font("Futura", Font.PLAIN, 95));
 		//labelTime.setBounds(349, 54, 197, 74);
-		labelTime.setBounds(698, 108, 359, 135);
+		labelTime.setBounds(728, 89, 359, 135);
 		contentPane.add(labelTime);
 		
 		
@@ -130,7 +130,7 @@ public class KronoxGUI extends JFrame {
 		JLabel lblProgramcourse = new JLabel("PROGRAM/COURSE");
 		lblProgramcourse.setFont(new Font("Futura", Font.PLAIN, 23));
 		lblProgramcourse = new JLabel("PROGRAM/COURSE");
-		lblProgramcourse.setFont(new Font("Futura", Font.PLAIN, 14));
+		lblProgramcourse.setFont(new Font("Futura", Font.PLAIN, 25));
 		lblProgramcourse.setForeground(Color.WHITE);
 		lblProgramcourse.setBackground(Color.BLACK);
 		//lblProgramcourse.setBounds(130, 129, 165, 49);
@@ -140,7 +140,7 @@ public class KronoxGUI extends JFrame {
 		JLabel lblRoom = new JLabel("ROOM");
 		lblRoom.setFont(new Font("Futura", Font.PLAIN, 23));
 		lblRoom = new JLabel("ROOM");
-		lblRoom.setFont(new Font("Futura", Font.PLAIN, 14));
+		lblRoom.setFont(new Font("Futura", Font.PLAIN, 25));
 		lblRoom.setForeground(Color.WHITE);
 		lblRoom.setBackground(Color.BLACK);
 		//lblRoom.setBounds(315, 129, 61, 49);
@@ -150,7 +150,7 @@ public class KronoxGUI extends JFrame {
 		JLabel lblStartEnd = new JLabel("START/END");
 		lblStartEnd.setFont(new Font("Futura", Font.PLAIN, 23));
 		lblStartEnd = new JLabel("START/END");
-		lblStartEnd.setFont(new Font("Futura", Font.PLAIN, 14));
+		lblStartEnd.setFont(new Font("Futura", Font.PLAIN, 25));
 		lblStartEnd.setForeground(Color.WHITE);
 		lblStartEnd.setBackground(Color.BLACK);
 		//lblStartEnd.setBounds(6, 129, 85, 49);
@@ -160,7 +160,7 @@ public class KronoxGUI extends JFrame {
 		JLabel lblInfo = new JLabel("INFO");
 		lblInfo.setFont(new Font("Futura", Font.PLAIN, 23));
 		lblInfo = new JLabel("INFO");
-		lblInfo.setFont(new Font("Futura", Font.PLAIN, 14));
+		lblInfo.setFont(new Font("Futura", Font.PLAIN, 25));
 		lblInfo.setForeground(Color.WHITE);
 		lblInfo.setBackground(Color.BLACK);
 		//lblInfo.setBounds(435, 129, 55, 49);
@@ -176,9 +176,9 @@ public class KronoxGUI extends JFrame {
 		JLabel lblNiagara = new JLabel("NIAGARA");
 		lblNiagara.setFont(new Font("Futura", Font.PLAIN, 80));
 		lblNiagara = new JLabel("NIAGARA");
-		lblNiagara.setFont(new Font("Futura", Font.PLAIN, 80));
+		lblNiagara.setFont(new Font("Futura", Font.PLAIN, 85));
 		//lblNiagara.setBounds(117, 6, 275, 60);
-		lblNiagara.setBounds(275, 6, 399, 79);
+		lblNiagara.setBounds(278, 44, 438, 90);
 		contentPane.add(lblNiagara);
 		
 		JLabel lblSchedule = new JLabel("SCHEDULE");
@@ -188,13 +188,13 @@ public class KronoxGUI extends JFrame {
 		lblSchedule.setFont(new Font("Futura", Font.PLAIN, 65));
 
 		//lblSchedule.setBounds(130, 65, 207, 49);
-		lblSchedule.setBounds(275, 82, 399, 94);
+		lblSchedule.setBounds(278, 120, 399, 94);
 		contentPane.add(lblSchedule);
 		
 		labelDate = new JLabel("");
 		labelDate.setFont(new Font("Futura", Font.PLAIN, 30));
 		//labelDate.setBounds(404, 17, 126, 18);
-		labelDate.setBounds(750, 19, 255, 85);
+		labelDate.setBounds(825, 44, 255, 85);
 		contentPane.add(labelDate);
 		
 		//LOGGA
