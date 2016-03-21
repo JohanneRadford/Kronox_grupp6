@@ -122,11 +122,21 @@ public class ParserNew {
 					}
 				
 				
+				//if (teacher.length()<0){
+					
+			superDone.add(new Parser(info, room, teacher, startTid, slutTid));
+			
+				//}
 				
-				superDone.add(new Parser(info, room, teacher, startTid, slutTid));
-				momentList.add(new ParserMoment(info));
-				courseNameList.add(new ParserCourseName(teacher));
-				roomList.add(new ParserRoom(room));
+			//momentList.add(new ParserMoment(info));
+			
+				
+					
+				//courseNameList.add(new ParserCourseName(teacher));
+				
+				
+				//roomList.add(new ParserRoom(room));
+				
 			}
 		}
 		catch (Exception e)
@@ -141,15 +151,18 @@ public class ParserNew {
 			
 		System.out.println(superDone.get(h).toString());
 		
-		//gui.kurs1.append(superDone.get(h).toString());
+		gui.kurs1.append(superDone.get(h).toString()+ "\n"+ "\n");
 			
             
 			
 		}
+		
+		/**
 		for(int r = 0; r < momentList.size(); r++){
 		gui.momentTextArea.append(momentList.get(r) + "\n" + "\n" );
 		
 		}
+		
 		
 		for(int t = 0; t < courseNameList.size(); t++){
 		gui.courseTextArea.append(courseNameList.get(t) + "\n" + "\n");
@@ -163,7 +176,7 @@ public class ParserNew {
 		for (int s = 0; s < timeList.size(); s ++){
 		gui.timeTextArea.append(timeList.get(s)+ "\n"  );
 		}
-		
+		*/
 		
 		
     }
