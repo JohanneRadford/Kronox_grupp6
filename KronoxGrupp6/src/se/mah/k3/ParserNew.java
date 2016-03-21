@@ -19,7 +19,7 @@ public class ParserNew {
 	
 	ArrayList<Parser> superDone = new ArrayList<Parser>();
 	
-	ArrayList<ParserMoment> momentList = new ArrayList<ParserMoment>();
+	//ArrayList<ParserMoment> momentList = new ArrayList<ParserMoment>();
 	
 	ArrayList<ParserCourseName> courseNameList = new ArrayList<ParserCourseName>();
 	
@@ -33,7 +33,6 @@ public class ParserNew {
 	}
 	
 
-    
 	
 		
 		String room = "";
@@ -42,7 +41,6 @@ public class ParserNew {
 		String startTid = "";
     	String slutTid = "";
 
-		
 		public ArrayList<Parser> parse() {	
 		
 		String room = null;
@@ -117,7 +115,6 @@ public class ParserNew {
 							if(specifiedClass.getNodeType() == Node.ELEMENT_NODE){
 								Element name = (Element) specifiedClass;
 								
-								
 											
 								if(id.contains("RESURSER_LOKALER")){
 									room = name.getTextContent();
@@ -137,20 +134,17 @@ public class ParserNew {
 					}
 				
 				
-				if (teacher.length()>0){
+				//if (teacher.length()>0){	
 					
-			superDone.add(new Parser(teacher, startTid, slutTid));
+		//	superDone.add(new Parser(teacher, startTid, slutTid));
 			
-				}
+			//	}
 				
 			//momentList.add(new ParserMoment(info));
-			
 				
-					
 				//courseNameList.add(new ParserCourseName(teacher));
-				
-				
-				//roomList.add(new ParserRoom(room));
+					
+				roomList.add(new ParserRoom(room, info));
 				
 			}
 		}
@@ -158,19 +152,19 @@ public class ParserNew {
         {
             e.printStackTrace();
         }
-		superDone = names.courseNames(superDone);
-		for(int h = 0; h < superDone.size(); h++){
+		//superDone = names.courseNames(superDone);
+		//for(int h = 0; h < superDone.size(); h++){
 		
 			
 			
 			
-		System.out.println(superDone.get(h).toString());
+		//System.out.println(superDone.get(h).toString());
 		
-		gui.kurs1.append("\n"+ superDone.get(h).toString());
+		//gui.kurs1.append("\n"+ superDone.get(h).toString());
 			
             
 			
-		}
+		
 		/**
 		for(int r = 0; r < momentList.size(); r++){
 		gui.momentTextArea.append(momentList.get(r) + "\n" + "\n" );
@@ -181,12 +175,14 @@ public class ParserNew {
 		for(int t = 0; t < courseNameList.size(); t++){
 		gui.courseTextArea.append(courseNameList.get(t) + "\n" + "\n");
 		}
+		*/
 		
 		for(int l = 0; l < roomList.size(); l ++ ){
 			gui.roomTextArea.append(roomList.get(l)+ "\n" );
 			
 		}
 		
+		/**
 		for (int s = 0; s < timeList.size(); s ++){
 		gui.timeTextArea.append(timeList.get(s)+ "\n"  );
 		}

@@ -202,17 +202,17 @@ public class KronoxGUI extends JFrame {
 		lblNewLabel_1.setBounds(30, -1, 226, 244);
 		contentPane.add(lblNewLabel_1);	
 		contentPane.add(lblNewLabel_1);
-		/**
+		
 		// ROM
 		roomTextArea = new JTextArea();
 		roomTextArea.setFont(new Font("Futura", Font.PLAIN, 30));
 		roomTextArea.setBackground(new Color(0,0,0,0));
 		roomTextArea.setOpaque(false);
-		roomTextArea.setBounds(619, 327, 122, 1920);
+		roomTextArea.setBounds(619, 327, 420, 1920);
 		contentPane.add(roomTextArea);
 		
 		//Moment
-		
+		/**
 		courseTextArea = new JTextArea();
 		courseTextArea.setFont(new Font("Futura", Font.PLAIN, 25));
 
@@ -232,8 +232,8 @@ public class KronoxGUI extends JFrame {
 		contentPane.add(momentTextArea);
 		//courseTextArea.setBackground(new Color(0,0,0,0));
 		//momentTextArea.setOpaque(true);
-	*/
-
+	
+*/
 		//RADER
 
 		
@@ -293,20 +293,22 @@ public class KronoxGUI extends JFrame {
 		textArea_11.setBounds(0, 2010, 1080, 80);
 		contentPane.add(textArea_11);
 		
-		//Typeface.createFromAsset(getAssets(), "fonts/Futura_ICG_Book_Oblique.ttf");
 		
 		kurs1 = new JTextArea();
 		kurs1.setFont(new Font("Futura", Font.PLAIN, 28));
 		kurs1.setBounds(27, 332, 569, 1904);
+
+		kurs1.setBounds(27, 316, 670, 1920);
 		contentPane.add(kurs1);
-		/**
+		
+		
 		timeTextArea = new JTextArea();
 		timeTextArea.setOpaque(false);
 		timeTextArea.setFont(new Font("Futura", Font.PLAIN, 30));
 		timeTextArea.setBackground(new Color(0, 0, 0, 0));
 		timeTextArea.setBounds(30, 327, 156, 1920);
 		contentPane.add(timeTextArea);
-		*/
+		
 		clockKronox = new ClockKronox(this);
 		
 		parserNew = new ParserNew(this);
