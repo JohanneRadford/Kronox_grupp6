@@ -251,10 +251,7 @@ public class KronoxGUI extends JFrame {
 		moment1.setBounds(870, 310, 210, 70);
 		contentPane.add(moment1);
 		
-	
-		
 
-		
 		
 	//TEST PARSER
 	//PAR = parser.ParserKurs();
@@ -277,19 +274,6 @@ public class KronoxGUI extends JFrame {
 		moment3.setBounds(776, 570, 120, 34);
 		contentPane.add(moment3);
 	
-		
-		
-
-
-		//test.superDone.add()
-			
-			
-			
-		//txtrDatavetenskapOchApplikationsutveckling.append(parser.ParserKurs());
-		//System.out.println(parser.ParserKurs());
-
-	
-		//txtrDatavetenskapOchApplikationsutveckling.setText(parser.ParserKurs(kurs));
 
 		//RADER
 

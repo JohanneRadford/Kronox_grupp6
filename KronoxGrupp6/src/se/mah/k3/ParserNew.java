@@ -56,7 +56,7 @@ public class ParserNew {
 		        			eElement.getTextContent();
 		        			
 
-		        			info = eElement.getTextContent().replace("&#246;", "ö").replace("&#214;", "Ö").replace("&#228;", "ä").replace("&#229;", "å");
+		        			info = eElement.getTextContent().replace("&#246;", "ö").replace("&#214;", "Ö").replace("&#228;", "ä").replace("&#229;", "å").replace("<br>", " ").replace("&#8221", " ").replace("id&#233","è");
 
 		        			
 
