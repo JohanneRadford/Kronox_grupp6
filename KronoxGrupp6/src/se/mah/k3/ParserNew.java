@@ -15,7 +15,7 @@ import org.w3c.dom.Element;
 
 public class ParserNew {
 	
-	ArrayList<String> time = new ArrayList<String>();
+	ArrayList<ParserTime> timeList = new ArrayList<ParserTime>();
 	
 	ArrayList<Parser> superDone = new ArrayList<Parser>();
 	
@@ -82,7 +82,7 @@ public class ParserNew {
 	        			
 	        			startTid = node4.getNodeValue();
 	        			slutTid = node5.getNodeValue();
-	        			time.add(startTid + " - " + slutTid);
+	        			timeList.add(new ParserTime(startTid + " - " + slutTid));
 	        			
 	                }
 	            }
@@ -160,6 +160,9 @@ public class ParserNew {
 			
 		}
 		
+		for (int s = 0; s < timeList.size(); s ++){
+		gui.timeTextArea.append(timeList.get(s)+ "\n"  );
+		}
 		
 		
 		
