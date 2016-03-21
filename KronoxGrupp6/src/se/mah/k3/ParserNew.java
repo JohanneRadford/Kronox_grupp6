@@ -151,7 +151,7 @@ public class ParserNew {
 			
 		System.out.println(superDone.get(h).toString());
 		
-		gui.kurs1.append(superDone.get(h).toString()+ "\n"+ "\n");
+		gui.kurs1.append("\n"+ superDone.get(h).toString());
 			
             
 			
