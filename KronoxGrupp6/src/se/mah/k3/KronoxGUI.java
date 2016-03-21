@@ -1,9 +1,6 @@
-<<<<<<< Updated upstream
                          package se.mah.k3;
-=======
 
-package se.mah.k3;
->>>>>>> Stashed changes
+
 
 import java.awt.BorderLayout;
 import java.util.*;
