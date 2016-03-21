@@ -293,7 +293,7 @@ public class KronoxGUI extends JFrame {
 		textArea_11.setBounds(0, 2010, 1080, 80);
 		contentPane.add(textArea_11);
 		
-		Typeface.createFromAsset(getAssets(), "fonts/Futura_ICG_Book_Oblique.ttf");
+		//Typeface.createFromAsset(getAssets(), "fonts/Futura_ICG_Book_Oblique.ttf");
 		
 		kurs1 = new JTextArea();
 		kurs1.setFont(new Font("Futura", Font.PLAIN, 28));
