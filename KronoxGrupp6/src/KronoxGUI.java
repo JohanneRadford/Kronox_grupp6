@@ -172,32 +172,32 @@ public class KronoxGUI extends JFrame {
 		JLabel lblNiagara = new JLabel("NIAGARA");
 		lblNiagara.setFont(new Font("Futura", Font.PLAIN, 80));
 		lblNiagara = new JLabel("NIAGARA");
-		lblNiagara.setFont(new Font("Futura", Font.PLAIN, 50));
+		lblNiagara.setFont(new Font("Futura", Font.PLAIN, 80));
 		//lblNiagara.setBounds(117, 6, 275, 60);
-		lblNiagara.setBounds(245, 12, 399, 79);
+		lblNiagara.setBounds(275, 6, 399, 79);
 		contentPane.add(lblNiagara);
 		
 		JLabel lblSchedule = new JLabel("SCHEDULE");
 		lblSchedule.setFont(new Font("Futura", Font.PLAIN, 50));
 
 		lblSchedule = new JLabel("SCHEDULE");
-		lblSchedule.setFont(new Font("Futura", Font.PLAIN, 35));
+		lblSchedule.setFont(new Font("Futura", Font.PLAIN, 65));
 
 		//lblSchedule.setBounds(130, 65, 207, 49);
-		lblSchedule.setBounds(245, 108, 274, 49);
+		lblSchedule.setBounds(275, 82, 399, 94);
 		contentPane.add(lblSchedule);
 		
 		labelDate = new JLabel("");
-		labelDate.setFont(new Font("Futura", Font.PLAIN, 16));
+		labelDate.setFont(new Font("Futura", Font.PLAIN, 30));
 		//labelDate.setBounds(404, 17, 126, 18);
-		labelDate.setBounds(808, 34, 126, 18);
+		labelDate.setBounds(750, 19, 255, 85);
 		contentPane.add(labelDate);
 		
 		//LOGGA
-		lblNewLabel_1 = new JLabel("New label");
-		lblNewLabel_1.setIcon(new ImageIcon("/Users/johanneradford/Desktop/Malmö-en1-127x150.png"));
+		lblNewLabel_1 = new JLabel("");
+		lblNewLabel_1.setIcon(new ImageIcon("/Users/claralundborg/Desktop/Interaktionsdesign/Programmering II/GitHub/Kronox_grupp6/KronoxGrupp6/images/Logoty_Malmö_högskola4.png"));
 		//lblNewLabel_1.setBounds(17, 6, 88, 110);
-		lblNewLabel_1.setBounds(34, 12, 88, 110);
+		lblNewLabel_1.setBounds(30, -1, 226, 244);
 		contentPane.add(lblNewLabel_1);	
 		contentPane.add(lblNewLabel_1);
 		
@@ -262,13 +262,7 @@ public class KronoxGUI extends JFrame {
 		
 		
 
-
-		//test.superDone.add()
-			
-			
-			
-		//txtrDatavetenskapOchApplikationsutveckling.append(parser.ParserKurs());
-		//System.out.println(parser.ParserKurs());
+<<<<<<< Updated upstream
 =======
 		JTextArea moment3 = new JTextArea();
 		moment3.setText("Seminarium halva klassen:\nmiljöledning i transportföretag");
@@ -277,14 +271,22 @@ public class KronoxGUI extends JFrame {
 		//moment3.setBounds(388, 285, 120, 34);
 		moment3.setBounds(776, 570, 120, 34);
 		contentPane.add(moment3);
+	
+		
+		
+
 >>>>>>> Stashed changes
 
-		}
+		//test.superDone.add()
+			
+			
+			
+		//txtrDatavetenskapOchApplikationsutveckling.append(parser.ParserKurs());
+		//System.out.println(parser.ParserKurs());
 
-		
-<<<<<<< Updated upstream
 	
 		//txtrDatavetenskapOchApplikationsutveckling.setText(parser.ParserKurs(kurs));
+<<<<<<< Updated upstream
 		
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -299,6 +301,9 @@ public class KronoxGUI extends JFrame {
 =======
 >>>>>>> Stashed changes
 		
+=======
+
+>>>>>>> Stashed changes
 		//RADER
 
 		
@@ -344,10 +349,14 @@ public class KronoxGUI extends JFrame {
 	}
 <<<<<<< Updated upstream
 
-<<<<<<< Updated upstream
+
 }
+<<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes
 =======
 }
+>>>>>>> Stashed changes
+=======
+
 >>>>>>> Stashed changes
