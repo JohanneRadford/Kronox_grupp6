@@ -45,9 +45,13 @@ public class Test {
 
 		        			Element eElement = (Element) n1;
 		        			eElement.getTextContent();
+<<<<<<< Updated upstream
 		        			
 		        			info = info.replace("&#228;", "ä").replace("&#246;", "ö");
 
+=======
+		        			info = eElement.getTextContent().replace("&#246;", "ö").replace("&#214;", "Ö").replace("&#228;", "ä").replace("&#229;", "å");
+>>>>>>> Stashed changes
 		        			
 		        			/**
 		        			String rawString = eElement.getTextContent();
@@ -55,14 +59,24 @@ public class Test {
 		        			int startPos = rawString.indexOf("<b>");
 		        			int slutPos = rawString.indexOf("</b>");
 		        			rawString = rawString.trim();
+<<<<<<< Updated upstream
 		        			if(startPos > 0 && slutPos > 0){
 		        			info = rawString.substring(startPos + 3 , slutPos);
 		        			info = info.replace("&#228;", "ä").replace("&#246;", "ö");
+=======
+		        			//if(startPos > 0 && slutPos > 0){
+		        			//info = rawString.substring(startPos + 3 , slutPos);
+		        			info = info.replaceAll("&#246;", "ö");
+>>>>>>> Stashed changes
 		        			//info = info.replaceAll("&#246;", "ö");
-		        			}else{
-		        				info = eElement.getTextContent();
 		        			}
+<<<<<<< Updated upstream
 		    			*/
+=======
+		        				
+		        			
+		    			
+>>>>>>> Stashed changes
 		                }
 		            }
 			
