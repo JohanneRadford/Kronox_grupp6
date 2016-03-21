@@ -36,10 +36,10 @@ public class KronoxGUI extends JFrame {
 	private JLabel lblNiagara;
 	private JLabel lblSchedule;
 	private JLabel lblNewLabel_1;
-	public JTextArea kurs1;
-	private JLabel moment1;
-	private JLabel room1;
 	private JLabel time1;
+	public JTextArea momentTextArea;
+	public JTextArea courseTextArea;
+	public JTextArea roomTextArea;
 	
 	private ClockKronox clockKronox;
 	private Parser parser;
@@ -48,7 +48,6 @@ public class KronoxGUI extends JFrame {
 
 	public ArrayList<Parser> PAR = new ArrayList<Parser>();
 	private ParserNew parserNew;
-	private JScrollPane scrollPane;
 	
 
 
@@ -206,50 +205,35 @@ public class KronoxGUI extends JFrame {
 		time1.setBounds(28, 310, 177, 70);
 		contentPane.add(time1);
 		
+		// ROM
+		roomTextArea = new JTextArea();
+		roomTextArea.setFont(new Font("Futura", Font.PLAIN, 26));
+		roomTextArea.setBackground(new Color(0,0,0,0));
+		roomTextArea.setOpaque(false);
+		roomTextArea.setBounds(619, 327, 122, 493);
+		contentPane.add(roomTextArea);
 		
-		//ROOMS
-		room1 = new JLabel("A0513");
-		room1.setForeground(Color.BLACK);
-		room1.setFont(new Font("Futura", Font.PLAIN, 25));
-		room1.setBackground(Color.BLACK);
-		//room1.setBounds(315, 174, 61, 49);
-		room1.setBounds(630, 310, 126, 70);
-		contentPane.add(room1);
+		//Moment
 		
-		scrollPane = new JScrollPane();
-		scrollPane.setBounds(260, 320, 297, 284);
-		contentPane.add(scrollPane);
+		courseTextArea = new JTextArea();
+		courseTextArea.setFont(new Font("Futura", Font.PLAIN, 18));
+
+		courseTextArea.setBackground(new Color(0,0,0,0));
+		courseTextArea.setOpaque(false);
+		courseTextArea.setBounds(260, 324, 326, 383);
+		contentPane.add(courseTextArea);
 	
 		
 		//KURSER
-		kurs1 = new JTextArea();
-		scrollPane.setViewportView(kurs1);
-		kurs1.setRows(30);
-		kurs1.setFont(new Font("Futura", Font.PLAIN, 18));
 		
-
-			
-			
-
-
-		
-		//MOMENT
-		moment1 = new JLabel("Obligatory seminar (1 ECTS)");
-		moment1.setForeground(Color.BLACK);
-		moment1.setFont(new Font("Futura", Font.PLAIN, 18));
-		moment1.setBackground(Color.BLACK);
-		//moment1.setBounds(394, 175, 146, 49);
-		moment1.setBounds(870, 310, 210, 70);
-		contentPane.add(moment1);
-		
-
-		JTextArea moment3 = new JTextArea();
-		moment3.setText("Seminarium halva klassen:\nmiljöledning i transportföretag");
-		moment3.setFont(new Font("Futura", Font.PLAIN, 10));
-		moment3.setBackground(new Color(255, 228, 225));
-		//moment3.setBounds(388, 285, 120, 34);
-		moment3.setBounds(776, 570, 120, 34);
-		contentPane.add(moment3);
+		momentTextArea = new JTextArea();
+		momentTextArea.setFont(new Font("Futura", Font.PLAIN, 18));
+		momentTextArea.setBackground(new Color(0,0,0,0));
+		momentTextArea.setOpaque(false);
+		momentTextArea.setBounds(775, 322, 294, 420);
+		contentPane.add(momentTextArea);
+		//courseTextArea.setBackground(new Color(0,0,0,0));
+		//momentTextArea.setOpaque(true);
 	
 
 		//RADER
@@ -279,6 +263,7 @@ public class KronoxGUI extends JFrame {
 		textArea_4.setBounds(0, 800, 1080, 70);
 		contentPane.add(textArea_4);
 		
+<<<<<<< Updated upstream
 		JTextArea textArea_5 = new JTextArea();
 		textArea_5.setForeground(Color.PINK);
 		textArea_5.setBackground(new Color(155, 45, 45, 30));
@@ -314,6 +299,11 @@ public class KronoxGUI extends JFrame {
 		textArea_10.setBackground(new Color(155, 45, 45, 30));
 		textArea_10.setBounds(0, 1670, 1080, 70);
 		contentPane.add(textArea_10);
+=======
+	
+	
+		
+>>>>>>> Stashed changes
 
 		JTextArea textArea_11 = new JTextArea();
 		textArea_11.setForeground(Color.PINK);

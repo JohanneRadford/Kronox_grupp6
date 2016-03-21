@@ -21,6 +21,10 @@ public class ParserNew {
 	
 	ArrayList<ParserMoment> momentList = new ArrayList<ParserMoment>();
 	
+	ArrayList<ParserCourseName> courseNameList = new ArrayList<ParserCourseName>();
+	
+	ArrayList<ParserRoom> roomList = new ArrayList<ParserRoom>();
+	
 	KronoxGUI gui;
 	
 	public ParserNew(KronoxGUI gui){
@@ -121,6 +125,8 @@ public class ParserNew {
 				
 				superDone.add(new Parser(info, room, teacher, startTid, slutTid));
 				momentList.add(new ParserMoment(info));
+				courseNameList.add(new ParserCourseName(teacher));
+				roomList.add(new ParserRoom(room));
 			}
 		}
 		catch (Exception e)
@@ -141,8 +147,17 @@ public class ParserNew {
 			
 		}
 		for(int r = 0; r < momentList.size(); r++){
-		gui.kurs1.append(momentList.get(r) + "\n");
+		gui.momentTextArea.append(momentList.get(r) + "\n" + "\n" );
 		
+		}
+		
+		for(int t = 0; t < courseNameList.size(); t++){
+		gui.courseTextArea.append(courseNameList.get(t) + "\n" + "\n");
+		}
+		
+		for(int l = 0; l < roomList.size(); l ++ ){
+			gui.roomTextArea.append(roomList.get(l)+ "\n" );
+			
 		}
 		
 		

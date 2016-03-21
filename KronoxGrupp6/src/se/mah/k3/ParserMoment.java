@@ -10,7 +10,7 @@ public class ParserMoment {
 	}
 	
 	public String toString(){
-		String string =  "MOMENT: " + moment + "\n";
+		String string =  moment + "\n";
 		return string;
 	}
 
