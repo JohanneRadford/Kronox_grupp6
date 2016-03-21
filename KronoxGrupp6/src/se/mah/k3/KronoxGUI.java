@@ -195,9 +195,9 @@ public class KronoxGUI extends JFrame {
 		lblNewLabel_1.setBounds(30, -1, 226, 244);
 		contentPane.add(lblNewLabel_1);	
 		contentPane.add(lblNewLabel_1);
-		
+		/**
 		// ROM
-	/**	roomTextArea = new JTextArea();
+		roomTextArea = new JTextArea();
 		roomTextArea.setFont(new Font("Futura", Font.PLAIN, 30));
 		roomTextArea.setBackground(new Color(0,0,0,0));
 		roomTextArea.setOpaque(false);
@@ -225,8 +225,8 @@ public class KronoxGUI extends JFrame {
 		contentPane.add(momentTextArea);
 		//courseTextArea.setBackground(new Color(0,0,0,0));
 		//momentTextArea.setOpaque(true);
-	
-*/
+	*/
+
 		//RADER
 
 		
@@ -290,14 +290,14 @@ public class KronoxGUI extends JFrame {
 		kurs1.setFont(new Font("Futura", Font.PLAIN, 28));
 		kurs1.setBounds(27, 316, 1050, 1920);
 		contentPane.add(kurs1);
-		
-		/**timeTextArea = new JTextArea();
+		/**
+		timeTextArea = new JTextArea();
 		timeTextArea.setOpaque(false);
 		timeTextArea.setFont(new Font("Futura", Font.PLAIN, 30));
 		timeTextArea.setBackground(new Color(0, 0, 0, 0));
 		timeTextArea.setBounds(30, 327, 156, 1920);
-		contentPane.add(timeTextArea);*/
-		
+		contentPane.add(timeTextArea);
+		*/
 		clockKronox = new ClockKronox(this);
 		
 		parserNew = new ParserNew(this);

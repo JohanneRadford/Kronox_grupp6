@@ -32,6 +32,7 @@ public class ParserNew {
 		
 	}
 	
+<<<<<<< Updated upstream
 	public void parse()
     {
 	
@@ -41,6 +42,18 @@ public class ParserNew {
 		String teacher = "";
 		String startTid = "";
     	String slutTid = "";
+=======
+
+		
+		public ArrayList<Parser> parse() {	
+		
+		String room = null;
+		String info = null;
+		String teacher = null;
+		String startTid = null;
+    	String slutTid = null;
+    	CourseNames names = new CourseNames();
+>>>>>>> Stashed changes
     	
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		try{
@@ -147,7 +160,7 @@ public class ParserNew {
         {
             e.printStackTrace();
         }
-		
+		superDone = names.courseNames(superDone);
 		for(int h = 0; h < superDone.size(); h++){
 		
 			
@@ -160,7 +173,6 @@ public class ParserNew {
             
 			
 		}
-		
 		/**
 		for(int r = 0; r < momentList.size(); r++){
 		gui.momentTextArea.append(momentList.get(r) + "\n" + "\n" );
@@ -182,7 +194,8 @@ public class ParserNew {
 		}
 		*/
 		
+		return superDone;
 		
     }
-
+		
 }

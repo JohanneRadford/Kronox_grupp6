@@ -40,6 +40,15 @@ public class Parser {
 		String string =  startTime + "-" + endTime + "\t "  + kurs + "\t "  + lokal + " \t"  + moment + "\n" ;
 		return string;
 	}
+	
+	public String getKurs() {
+		return kurs;
+	}
+
+	public void setKurs(String kurs) {
+		this.kurs = kurs;
+	}
+
 
 	
 	
