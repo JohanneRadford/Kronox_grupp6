@@ -263,7 +263,6 @@ public class KronoxGUI extends JFrame {
 		textArea_4.setBounds(0, 800, 1080, 70);
 		contentPane.add(textArea_4);
 		
-<<<<<<< Updated upstream
 		JTextArea textArea_5 = new JTextArea();
 		textArea_5.setForeground(Color.PINK);
 		textArea_5.setBackground(new Color(155, 45, 45, 30));
@@ -299,11 +298,7 @@ public class KronoxGUI extends JFrame {
 		textArea_10.setBackground(new Color(155, 45, 45, 30));
 		textArea_10.setBounds(0, 1670, 1080, 70);
 		contentPane.add(textArea_10);
-=======
-	
-	
-		
->>>>>>> Stashed changes
+
 
 		JTextArea textArea_11 = new JTextArea();
 		textArea_11.setForeground(Color.PINK);
