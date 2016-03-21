@@ -15,9 +15,12 @@ public class Parser {
 		this.kurs = kurs;
 		this.endTime = endTime;
 		this.startTime = startTime;
-		
-		
+
+		this.moment = moment;
+
 	}
+	
+	
 	
 	public void ParserLokal (String lokal){
 		this.lokal = lokal;
@@ -33,6 +36,7 @@ public class Parser {
 		this.startTime = startTime;
 		this.endTime= endTime;
 	}
+	
 	
 	
 

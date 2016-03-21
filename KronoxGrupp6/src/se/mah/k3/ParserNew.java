@@ -134,11 +134,11 @@ public class ParserNew {
 					}
 				
 				
-				//if (teacher.length()>0){	
+				if (teacher.length()>0){	
 					
-		//	superDone.add(new Parser(teacher, startTid, slutTid));
+		superDone.add(new Parser(teacher, startTid, slutTid));
 			
-			//	}
+				}
 				
 			//momentList.add(new ParserMoment(info));
 				
@@ -152,16 +152,16 @@ public class ParserNew {
         {
             e.printStackTrace();
         }
-		//superDone = names.courseNames(superDone);
-		//for(int h = 0; h < superDone.size(); h++){
+		superDone = names.courseNames(superDone);
+		for(int h = 0; h < superDone.size(); h++){
 		
 			
 			
 			
-		//System.out.println(superDone.get(h).toString());
+		System.out.println(superDone.get(h).toString());
 		
-		//gui.kurs1.append("\n"+ superDone.get(h).toString());
-			
+		gui.kurs1.append("\n"+ superDone.get(h).toString());
+		}
             
 			
 		
