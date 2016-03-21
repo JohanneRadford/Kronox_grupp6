@@ -141,7 +141,7 @@ public class Test {
 				
 				
 				
-				superDone.add(new Parser(info, room, teacher, startTid, slutTid));
+				superDone.add(new Parser(teacher, startTid, slutTid));
 			}
 		}
 		catch (Exception e)
