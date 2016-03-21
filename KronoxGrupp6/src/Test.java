@@ -45,27 +45,36 @@ public class Test {
 
 		        			Element eElement = (Element) n1;
 		        			eElement.getTextContent();
+<<<<<<< Updated upstream
 		        			
 
 		        			info = eElement.getTextContent().replace("&#246;", "ö").replace("&#214;", "Ö").replace("&#228;", "ä").replace("&#229;", "å");
 
 		        			
 		        			/**
+=======
+		        			info = eElement.getTextContent().replace("&#246;", "ö").replace("&#214;", "Ö").replace("&#228;", "ä").replace("&#229;", "å").replace("&#196;", "Ä").replace("&#8221;", " ").replace("&#233;", "é").replace("&#8217;", "'").replace("&#8216;", " ").replace("&amp;", "&");
+		        			
+>>>>>>> Stashed changes
 		        			String rawString = eElement.getTextContent();
 		        			if(rawString.contains("<b>")){
 		        			int startPos = rawString.indexOf("<b>");
 		        			int slutPos = rawString.indexOf("</b>");
 		        			rawString = rawString.trim();
+<<<<<<< Updated upstream
 
 		        			if(startPos > 0 && slutPos > 0){
 		        			info = rawString.substring(startPos + 3 , slutPos);
 		        			info = info.replace("&#228;", "ä").replace("&#246;", "ö");
 
+=======
+>>>>>>> Stashed changes
 		        			//if(startPos > 0 && slutPos > 0){
 		        			//info = rawString.substring(startPos + 3 , slutPos);
 		        			info = info.replaceAll("&#246;", "ö");
 		        			//info = info.replaceAll("&#246;", "ö");
 		        			}
+<<<<<<< Updated upstream
 
 		    			*/
 
@@ -73,17 +82,22 @@ public class Test {
 		        			
 		    			
 
+=======
+		        				
+		        			
+		    			
+>>>>>>> Stashed changes
 		                }
 		            }
 			
 					
 				NodeList items2 = doc1.getElementsByTagName("bokadeDatum");	            
-	            for (int t1 = 0; t1 < items2.getLength(); t1++)
+	            for (int t = 0; t < items2.getLength(); t++)
 	            {
-	                Node n11 = items2.item(t1);
-	                if (n11.getNodeType() == Node.ELEMENT_NODE) {
+	                Node n1 = items2.item(t);
+	                if (n1.getNodeType() == Node.ELEMENT_NODE) {
 
-	        			Element eElement = (Element) n11;
+	        			Element eElement = (Element) n1;
 	        			Node node3 = eElement.getFirstChild();
 	        			Node node4 = node3.getAttributes().getNamedItem("startTid");
 	        			Node node5 = node3.getAttributes().getNamedItem("slutTid");
@@ -133,7 +147,6 @@ public class Test {
 				
 				superDone.add(new Parser(info, room, teacher, startTid, slutTid));
 			}
-		
 		}
 		catch (Exception e)
         {
