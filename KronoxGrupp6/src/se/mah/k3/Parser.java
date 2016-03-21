@@ -41,7 +41,7 @@ public class Parser {
 	
 
 	public String toString(){
-		String string =  startTime + "-" + endTime + "\t "  + kurs + "\n "+ "\n " ;
+		String string =  startTime + "-" + endTime + "\t "  + kurs + "\n " ;
 		return string;
 	}
 	
