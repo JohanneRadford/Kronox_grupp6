@@ -34,14 +34,13 @@ public class ParserNew {
 	
 	public void parse()
     {
+	
 		
-		
-		
-		String room = null;
-		String info = null;
-		String teacher = null;
-		String startTid = null;
-    	String slutTid = null;
+		String room = "";
+		String info = "";
+		String teacher = "";
+		String startTid = "";
+    	String slutTid = "";
     	
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		try{
@@ -50,6 +49,11 @@ public class ParserNew {
 			NodeList bookings = doc.getElementsByTagName("schemaPost");
 			for(int i = 0; i < bookings.getLength(); i++){
 				Node p = bookings.item(i);
+				room = "";
+				info = "";
+				 teacher = "";
+				startTid = "";
+		    	slutTid = "";
 				if(p.getNodeType() == Node.ELEMENT_NODE){
 					Element doc1 = (Element) p;
 					
@@ -122,11 +126,11 @@ public class ParserNew {
 					}
 				
 				
-				//if (teacher.length()<0){
+				if (teacher.length()>0){
 					
 			superDone.add(new Parser(info, room, teacher, startTid, slutTid));
 			
-				//}
+				}
 				
 			//momentList.add(new ParserMoment(info));
 			
