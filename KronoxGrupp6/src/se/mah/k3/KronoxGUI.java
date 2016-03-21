@@ -199,7 +199,7 @@ public class KronoxGUI extends JFrame {
 		
 		//LOGGA
 		lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon(KronoxGUI.class.getResource("/images1/Logoty_Malmö_högskola4.png")));
+		lblNewLabel_1.setIcon(new ImageIcon(KronoxGUI.class.getResource("/images1/Logotyp_Malmo_hogskola4.png")));
 		//lblNewLabel_1.setBounds(17, 6, 88, 110);
 		lblNewLabel_1.setBounds(30, -1, 226, 244);
 		contentPane.add(lblNewLabel_1);	
