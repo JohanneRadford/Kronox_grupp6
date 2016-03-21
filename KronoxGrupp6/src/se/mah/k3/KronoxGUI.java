@@ -118,7 +118,7 @@ public class KronoxGUI extends JFrame {
 		labelTime = new JLabel("");
 		labelTime.setFont(new Font("Futura", Font.PLAIN, 95));
 		//labelTime.setBounds(349, 54, 197, 74);
-		labelTime.setBounds(728, 89, 359, 135);
+		labelTime.setBounds(789, 103, 291, 135);
 		contentPane.add(labelTime);
 		
 		
@@ -128,47 +128,47 @@ public class KronoxGUI extends JFrame {
 		JLabel lblProgramcourse = new JLabel("PROGRAM/COURSE");
 		lblProgramcourse.setFont(new Font("Futura", Font.PLAIN, 23));
 		lblProgramcourse = new JLabel("PROGRAM/COURSE");
-		lblProgramcourse.setFont(new Font("Futura", Font.PLAIN, 30));
+		lblProgramcourse.setFont(new Font("Futura", Font.PLAIN, 35));
 		lblProgramcourse.setForeground(Color.WHITE);
 		lblProgramcourse.setBackground(Color.BLACK);
 		//lblProgramcourse.setBounds(130, 129, 165, 49);
-		lblProgramcourse.setBounds(260, 265, 307, 49);
+		lblProgramcourse.setBounds(260, 275, 358, 49);
 		contentPane.add(lblProgramcourse);
 		
 		JLabel lblRoom = new JLabel("ROOM");
 		lblRoom.setFont(new Font("Futura", Font.PLAIN, 23));
 		lblRoom = new JLabel("ROOM");
-		lblRoom.setFont(new Font("Futura", Font.PLAIN, 30));
+		lblRoom.setFont(new Font("Futura", Font.PLAIN, 35));
 		lblRoom.setForeground(Color.WHITE);
 		lblRoom.setBackground(Color.BLACK);
 		//lblRoom.setBounds(315, 129, 61, 49);
-		lblRoom.setBounds(630, 265, 187, 49);
+		lblRoom.setBounds(659, 275, 187, 49);
 		contentPane.add(lblRoom);
 		
 		JLabel lblStartEnd = new JLabel("START/END");
 		lblStartEnd.setFont(new Font("Futura", Font.PLAIN, 23));
 		lblStartEnd = new JLabel("START/END");
-		lblStartEnd.setFont(new Font("Futura", Font.PLAIN, 30));
+		lblStartEnd.setFont(new Font("Futura", Font.PLAIN, 35));
 		lblStartEnd.setForeground(Color.WHITE);
 		lblStartEnd.setBackground(Color.BLACK);
 		//lblStartEnd.setBounds(6, 129, 85, 49);
-		lblStartEnd.setBounds(40, 265, 187, 49);
+		lblStartEnd.setBounds(30, 275, 208, 49);
 		contentPane.add(lblStartEnd);
 		
 		JLabel lblInfo = new JLabel("INFO");
 		lblInfo.setFont(new Font("Futura", Font.PLAIN, 23));
 		lblInfo = new JLabel("INFO");
-		lblInfo.setFont(new Font("Futura", Font.PLAIN, 30));
+		lblInfo.setFont(new Font("Futura", Font.PLAIN, 35));
 		lblInfo.setForeground(Color.WHITE);
 		lblInfo.setBackground(Color.BLACK);
 		//lblInfo.setBounds(435, 129, 55, 49);
-		lblInfo.setBounds(870, 265, 110, 49);
+		lblInfo.setBounds(867, 275, 110, 49);
 		contentPane.add(lblInfo);
 		
 		textArea = new JTextArea();
 		textArea.setBackground(Color.BLACK);
 		//textArea.setBounds(0, 126, 540, 49);
-		textArea.setBounds(0, 250, 1080, 80);
+		textArea.setBounds(0, 250, 1080, 100);
 		contentPane.add(textArea);
 		
 		JLabel lblNiagara = new JLabel("NIAGARA");
@@ -239,50 +239,50 @@ public class KronoxGUI extends JFrame {
 		
 		JTextArea textArea_1 = new JTextArea();
 		textArea_1.setBackground(new Color(155, 45, 45, 30));
-		textArea_1.setBounds(0, 410, 1080, 80);
+		textArea_1.setBounds(0, 450, 1080, 100);
 		contentPane.add(textArea_1);
 		
 		JTextArea textArea_2 = new JTextArea();
 		textArea_2.setBackground(new Color(155, 45, 45, 30));
-		textArea_2.setBounds(0, 570, 1080, 80);
+		textArea_2.setBounds(0, 650, 1080, 100);
 		contentPane.add(textArea_2);
 		
 		JTextArea textArea_3 = new JTextArea();
 		textArea_3.setBackground(new Color(155, 45, 45, 30));
-		textArea_3.setBounds(0, 730, 1080, 80);
+		textArea_3.setBounds(0, 850, 1080, 100);
 		contentPane.add(textArea_3);
 		
 		JTextArea textArea_4 = new JTextArea();
 		textArea_4.setBackground(new Color(155, 45, 45, 30));
-		textArea_4.setBounds(0, 890, 1080, 80);
+		textArea_4.setBounds(0, 1050, 1080, 100);
 		contentPane.add(textArea_4);
 		
 		JTextArea textArea_5 = new JTextArea();
 		textArea_5.setBackground(new Color(155, 45, 45, 30));
-		textArea_5.setBounds(0, 1050, 1080, 80);
+		textArea_5.setBounds(0, 1250, 1080, 100);
 		contentPane.add(textArea_5);
 		
 		JTextArea textArea_6 = new JTextArea();
 		textArea_6.setBackground(new Color(155, 45, 45, 30));
-		textArea_6.setBounds(0, 1210, 1080, 80);
+		textArea_6.setBounds(0, 1450, 1080, 100);
 		contentPane.add(textArea_6);
 		
 		JTextArea textArea_7 = new JTextArea();
 		textArea_7.setBackground(new Color(155, 45, 45, 30));
-		textArea_7.setBounds(0, 1370, 1080, 80);
+		textArea_7.setBounds(0, 1650, 1080, 100);
 		contentPane.add(textArea_7);
 		
 		JTextArea textArea_8 = new JTextArea();
 		textArea_8.setBackground(new Color(155, 45, 45, 30));
-		textArea_8.setBounds(0, 1530, 1080, 80);
+		textArea_8.setBounds(0, 1850, 1080, 100);
 		contentPane.add(textArea_8);
 		
 		JTextArea textArea_9 = new JTextArea();
 		textArea_9.setBackground(new Color(155, 45, 45, 30));
-		textArea_9.setBounds(0, 1690, 1080, 80);
+		textArea_9.setBounds(0, 1950, 1080, 100);
 		contentPane.add(textArea_9);
 		
-		JTextArea textArea_10 = new JTextArea();
+		/**JTextArea textArea_10 = new JTextArea();
 		textArea_10.setBackground(new Color(155, 45, 45, 30));
 		textArea_10.setBounds(0, 1850, 1080, 80);
 		contentPane.add(textArea_10);
@@ -291,7 +291,7 @@ public class KronoxGUI extends JFrame {
 		JTextArea textArea_11 = new JTextArea();
 		textArea_11.setBackground(new Color(155, 45, 45, 30));
 		textArea_11.setBounds(0, 2010, 1080, 80);
-		contentPane.add(textArea_11);
+		contentPane.add(textArea_11);*/
 		
 		
 		kurs1 = new JTextArea();
