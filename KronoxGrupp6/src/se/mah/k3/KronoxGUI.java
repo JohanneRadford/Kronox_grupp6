@@ -207,30 +207,30 @@ public class KronoxGUI extends JFrame {
 		
 		// ROM
 		roomTextArea = new JTextArea();
-		roomTextArea.setFont(new Font("Futura", Font.PLAIN, 26));
+		roomTextArea.setFont(new Font("Futura", Font.PLAIN, 30));
 		roomTextArea.setBackground(new Color(0,0,0,0));
 		roomTextArea.setOpaque(false);
-		roomTextArea.setBounds(619, 327, 122, 493);
+		roomTextArea.setBounds(619, 327, 122, 1920);
 		contentPane.add(roomTextArea);
 		
 		//Moment
 		
 		courseTextArea = new JTextArea();
-		courseTextArea.setFont(new Font("Futura", Font.PLAIN, 18));
+		courseTextArea.setFont(new Font("Futura", Font.PLAIN, 25));
 
 		courseTextArea.setBackground(new Color(0,0,0,0));
 		courseTextArea.setOpaque(false);
-		courseTextArea.setBounds(260, 324, 326, 383);
+		courseTextArea.setBounds(260, 324, 326, 1920);
 		contentPane.add(courseTextArea);
 	
 		
 		//KURSER
 		
 		momentTextArea = new JTextArea();
-		momentTextArea.setFont(new Font("Futura", Font.PLAIN, 18));
+		momentTextArea.setFont(new Font("Futura", Font.PLAIN, 25));
 		momentTextArea.setBackground(new Color(0,0,0,0));
 		momentTextArea.setOpaque(false);
-		momentTextArea.setBounds(775, 322, 294, 420);
+		momentTextArea.setBounds(775, 322, 294, 1920);
 		contentPane.add(momentTextArea);
 		//courseTextArea.setBackground(new Color(0,0,0,0));
 		//momentTextArea.setOpaque(true);
