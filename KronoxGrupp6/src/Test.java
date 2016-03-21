@@ -45,7 +45,6 @@ public class Test {
 
 		        			Element eElement = (Element) n1;
 		        			eElement.getTextContent();
-<<<<<<< Updated upstream
 		        			
 
 		        			info = eElement.getTextContent().replace("&#246;", "ö").replace("&#214;", "Ö").replace("&#228;", "ä").replace("&#229;", "å");
@@ -82,11 +81,7 @@ public class Test {
 		        			
 		    			
 
-=======
-		        				
-		        			
-		    			
->>>>>>> Stashed changes
+
 		                }
 		            }
 			
