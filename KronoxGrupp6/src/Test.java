@@ -46,31 +46,34 @@ public class Test {
 		        			Element eElement = (Element) n1;
 		        			eElement.getTextContent();
 		        			
+		        			info = info.replace("&#228;", "ä").replace("&#246;", "ö");
+
 		        			
+		        			/**
 		        			String rawString = eElement.getTextContent();
 		        			if(rawString.contains("<b>")){
 		        			int startPos = rawString.indexOf("<b>");
 		        			int slutPos = rawString.indexOf("</b>");
 		        			rawString = rawString.trim();
-		        			//if(startPos > 0 && slutPos > 0){
+		        			if(startPos > 0 && slutPos > 0){
 		        			info = rawString.substring(startPos + 3 , slutPos);
-		        			info = info.replaceAll("&#228;", "ö");
+		        			info = info.replace("&#228;", "ä").replace("&#246;", "ö");
 		        			//info = info.replaceAll("&#246;", "ö");
 		        			}else{
 		        				info = eElement.getTextContent();
 		        			}
-		    			
+		    			*/
 		                }
 		            }
 			
 					
 				NodeList items2 = doc1.getElementsByTagName("bokadeDatum");	            
-	            for (int t = 0; t < items2.getLength(); t++)
+	            for (int t1 = 0; t1 < items2.getLength(); t1++)
 	            {
-	                Node n1 = items2.item(t);
-	                if (n1.getNodeType() == Node.ELEMENT_NODE) {
+	                Node n11 = items2.item(t1);
+	                if (n11.getNodeType() == Node.ELEMENT_NODE) {
 
-	        			Element eElement = (Element) n1;
+	        			Element eElement = (Element) n11;
 	        			Node node3 = eElement.getFirstChild();
 	        			Node node4 = node3.getAttributes().getNamedItem("startTid");
 	        			Node node5 = node3.getAttributes().getNamedItem("slutTid");
@@ -120,6 +123,7 @@ public class Test {
 				
 				superDone.add(new Parser(info, room, teacher, startTid, slutTid));
 			}
+		
 		}
 		catch (Exception e)
         {

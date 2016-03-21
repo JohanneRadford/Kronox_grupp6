@@ -505,7 +505,20 @@ public class KronoxGUI extends JFrame {
 			//testKurs.add(PAR);
 		
 		
+<<<<<<< Updated upstream
 
+=======
+		JTextArea moment3 = new JTextArea();
+		moment3.setText("Seminarium halva klassen:\nmiljöledning i transportföretag");
+		moment3.setFont(new Font("Futura", Font.PLAIN, 10));
+		moment3.setBackground(new Color(255, 228, 225));
+		//moment3.setBounds(388, 285, 120, 34);
+		moment3.setBounds(776, 570, 120, 34);
+		contentPane.add(moment3);
+	
+		
+		
+>>>>>>> Stashed changes
 
 		//test.superDone.add()
 			
@@ -519,6 +532,11 @@ public class KronoxGUI extends JFrame {
 	
 		//txtrDatavetenskapOchApplikationsutveckling.setText(parser.ParserKurs(kurs));
 		
+<<<<<<< Updated upstream
+=======
+
+		
+>>>>>>> Stashed changes
 		
 		//RADER
 
@@ -563,4 +581,5 @@ public class KronoxGUI extends JFrame {
 		}
 		*/
 	}
+
 }
