@@ -279,8 +279,7 @@ public class KronoxGUI extends JFrame {
 		textArea_4.setBounds(0, 800, 1080, 70);
 		contentPane.add(textArea_4);
 		
-		
-		
+
 		clockKronox = new ClockKronox(this);
 		
 		parserNew = new ParserNew(this);
@@ -288,8 +287,6 @@ public class KronoxGUI extends JFrame {
 		parserNew.parse();
 	
 	}
-
-
 }
 
 
