@@ -238,110 +238,110 @@ public class KronoxGUI extends JFrame {
 
 		
 		JTextArea textArea_1 = new JTextArea();
-		textArea_1.setBackground(new Color(155, 45, 45, 40));
-		textArea_1.setBounds(0, 375, 1080, 40);
+		textArea_1.setBackground(new Color(155, 45, 45, 35));
+		textArea_1.setBounds(0, 373, 1080, 43);
 		contentPane.add(textArea_1);
 		
 		JTextArea textArea_2 = new JTextArea();
-		textArea_2.setBackground(new Color(155, 45, 45, 40));
-		textArea_2.setBounds(0, 451, 1080, 40);
+		textArea_2.setBackground(new Color(155, 45, 45, 35));
+		textArea_2.setBounds(0, 449, 1080, 43);
 		contentPane.add(textArea_2);
 		
 		JTextArea textArea_3 = new JTextArea();
-		textArea_3.setBackground(new Color(155, 45, 45, 40));
-		textArea_3.setBounds(0, 527, 1080, 40);
+		textArea_3.setBackground(new Color(155, 45, 45, 35));
+		textArea_3.setBounds(0, 525, 1080, 43);
 		contentPane.add(textArea_3);
 		
 		JTextArea textArea_4 = new JTextArea();
-		textArea_4.setBackground(new Color(155, 45, 45, 40));
-		textArea_4.setBounds(0, 603, 1080, 40);
+		textArea_4.setBackground(new Color(155, 45, 45, 35));
+		textArea_4.setBounds(0, 601, 1080, 43);
 		contentPane.add(textArea_4);
 		
 		JTextArea textArea_5 = new JTextArea();
-		textArea_5.setBackground(new Color(155, 45, 45, 40));
-		textArea_5.setBounds(0, 679, 1080, 40);
+		textArea_5.setBackground(new Color(155, 45, 45, 35));
+		textArea_5.setBounds(0, 677, 1080, 43);
 		contentPane.add(textArea_5);
 		
 		JTextArea textArea_6 = new JTextArea();
-		textArea_6.setBackground(new Color(155, 45, 45, 40));
-		textArea_6.setBounds(0, 755, 1080, 40);
+		textArea_6.setBackground(new Color(155, 45, 45, 35));
+		textArea_6.setBounds(0, 753, 1080, 43);
 		contentPane.add(textArea_6);
 		
 		JTextArea textArea_7 = new JTextArea();
-		textArea_7.setBackground(new Color(155, 45, 45, 40));
-		textArea_7.setBounds(0, 831, 1080, 40);
+		textArea_7.setBackground(new Color(155, 45, 45, 35));
+		textArea_7.setBounds(0, 829, 1080, 43);
 		contentPane.add(textArea_7);
 		
 		JTextArea textArea_8 = new JTextArea();
-		textArea_8.setBackground(new Color(155, 45, 45, 40));
-		textArea_8.setBounds(0, 907, 1080, 40);
+		textArea_8.setBackground(new Color(155, 45, 45, 35));
+		textArea_8.setBounds(0, 905, 1080, 43);
 		contentPane.add(textArea_8);
 		
 		JTextArea textArea_9 = new JTextArea();
-		textArea_9.setBackground(new Color(155, 45, 45, 40));
-		textArea_9.setBounds(0, 983, 1080, 40);
+		textArea_9.setBackground(new Color(155, 45, 45, 35));
+		textArea_9.setBounds(0, 981, 1080, 43);
 		contentPane.add(textArea_9);
 		
 		JTextArea textArea_10 = new JTextArea();
-		textArea_10.setBackground(new Color(155, 45, 45, 40));
-		textArea_10.setBounds(0, 1059, 1080, 40);
+		textArea_10.setBackground(new Color(155, 45, 45, 35));
+		textArea_10.setBounds(0, 1057, 1080, 43);
 		contentPane.add(textArea_10);
 
 
 		JTextArea textArea_11 = new JTextArea();
-		textArea_11.setBackground(new Color(155, 45, 45, 40));
-		textArea_11.setBounds(0, 1135, 1080, 40);
+		textArea_11.setBackground(new Color(155, 45, 45, 35));
+		textArea_11.setBounds(0, 1133, 1080, 43);
 		contentPane.add(textArea_11);
 		
 		JTextArea textArea_12 = new JTextArea();
-		textArea_12.setBackground(new Color(155, 45, 45, 40));
-		textArea_12.setBounds(0, 1211, 1080, 40);
+		textArea_12.setBackground(new Color(155, 45, 45, 35));
+		textArea_12.setBounds(0, 1209, 1080, 43);
 		contentPane.add(textArea_12);
 		
 		JTextArea textArea_13 = new JTextArea();
-		textArea_13.setBackground(new Color(155, 45, 45, 40));
-		textArea_13.setBounds(0, 1287, 1080, 40);
+		textArea_13.setBackground(new Color(155, 45, 45, 35));
+		textArea_13.setBounds(0, 1285, 1080, 43);
 		contentPane.add(textArea_13);
 		
 		JTextArea textArea_14 = new JTextArea();
-		textArea_14.setBackground(new Color(155, 45, 45, 40));
-		textArea_14.setBounds(0, 1363, 1080, 40);
+		textArea_14.setBackground(new Color(155, 45, 45, 35));
+		textArea_14.setBounds(0, 1361, 1080, 43);
 		contentPane.add(textArea_14);
 		
 		JTextArea textArea_15 = new JTextArea();
-		textArea_15.setBackground(new Color(155, 45, 45, 40));
-		textArea_15.setBounds(0, 1439, 1080, 40);
+		textArea_15.setBackground(new Color(155, 45, 45, 35));
+		textArea_15.setBounds(0, 1437, 1080, 43);
 		contentPane.add(textArea_15);
 		
 		JTextArea textArea_16 = new JTextArea();
-		textArea_16.setBackground(new Color(155, 45, 45, 40));
-		textArea_16.setBounds(0, 1515, 1080, 40);
+		textArea_16.setBackground(new Color(155, 45, 45, 35));
+		textArea_16.setBounds(0, 1513, 1080, 43);
 		contentPane.add(textArea_16);
 		
 		
 		JTextArea textArea_17 = new JTextArea();
-		textArea_17.setBackground(new Color(155, 45, 45, 40));
-		textArea_17.setBounds(0, 1591, 1080, 40);
+		textArea_17.setBackground(new Color(155, 45, 45, 35));
+		textArea_17.setBounds(0, 1589, 1080, 43);
 		contentPane.add(textArea_17);
 		
 		JTextArea textArea_18 = new JTextArea();
-		textArea_18.setBackground(new Color(155, 45, 45, 40));
-		textArea_18.setBounds(0, 1667, 1080, 40);
+		textArea_18.setBackground(new Color(155, 45, 45, 35));
+		textArea_18.setBounds(0, 1665, 1080, 43);
 		contentPane.add(textArea_18);
 		
 		JTextArea textArea_19 = new JTextArea();
-		textArea_19.setBackground(new Color(155, 45, 45, 40));
-		textArea_19.setBounds(0, 1743, 1080, 40);
+		textArea_19.setBackground(new Color(155, 45, 45, 35));
+		textArea_19.setBounds(0, 1741, 1080, 43);
 		contentPane.add(textArea_19);
 		
 		JTextArea textArea_20 = new JTextArea();
-		textArea_20.setBackground(new Color(155, 45, 45, 40));
-		textArea_20.setBounds(0, 1819, 1080, 40);
+		textArea_20.setBackground(new Color(155, 45, 45, 35));
+		textArea_20.setBounds(0, 1817, 1080, 43);
 		contentPane.add(textArea_20);
 		
 		JTextArea textArea_21 = new JTextArea();
-		textArea_21.setBackground(new Color(155, 45, 45, 40));
-		textArea_21.setBounds(0, 1895, 1080, 40);
+		textArea_21.setBackground(new Color(155, 45, 45, 35));
+		textArea_21.setBounds(0, 1893, 1080, 43);
 		contentPane.add(textArea_21);
 		
 		
