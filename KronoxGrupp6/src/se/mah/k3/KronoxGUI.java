@@ -239,17 +239,17 @@ public class KronoxGUI extends JFrame {
 		
 		JTextArea textArea_1 = new JTextArea();
 		textArea_1.setBackground(new Color(155, 45, 45, 50));
-		textArea_1.setBounds(0, 381, 1080, 38);
+		textArea_1.setBounds(0, 380, 1080, 38);
 		contentPane.add(textArea_1);
 		
 		JTextArea textArea_2 = new JTextArea();
 		textArea_2.setBackground(new Color(155, 45, 45, 50));
-		textArea_2.setBounds(0, 480, 1080, 38);
+		textArea_2.setBounds(0, 456, 1080, 38);
 		contentPane.add(textArea_2);
 		
 		JTextArea textArea_3 = new JTextArea();
 		textArea_3.setBackground(new Color(155, 45, 45, 50));
-		textArea_3.setBounds(0, 556, 1080, 38);
+		textArea_3.setBounds(0, 532, 1080, 38);
 		contentPane.add(textArea_3);
 		
 		JTextArea textArea_4 = new JTextArea();
