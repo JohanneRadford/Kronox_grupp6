@@ -209,6 +209,7 @@ public class KronoxGUI extends JFrame {
 		roomTextArea.setBackground(new Color(0,0,0,0));
 		roomTextArea.setOpaque(false);
 		roomTextArea.setBounds(645, 382, 420, 1920);
+		roomTextArea.setBounds(619, 372, 420, 1875);
 		contentPane.add(roomTextArea);
 		
 		//Moment
@@ -244,17 +245,17 @@ public class KronoxGUI extends JFrame {
 		
 		JTextArea textArea_2 = new JTextArea();
 		textArea_2.setBackground(new Color(155, 45, 45, 50));
-		textArea_2.setBounds(0, 440, 1080, 40);
+		textArea_2.setBounds(0, 472, 1080, 40);
 		contentPane.add(textArea_2);
 		
 		JTextArea textArea_3 = new JTextArea();
 		textArea_3.setBackground(new Color(155, 45, 45, 50));
-		textArea_3.setBounds(0, 490, 1080, 40);
+		textArea_3.setBounds(0, 546, 1080, 40);
 		contentPane.add(textArea_3);
 		
 		JTextArea textArea_4 = new JTextArea();
 		textArea_4.setBackground(new Color(155, 45, 45, 50));
-		textArea_4.setBounds(0, 540, 1080, 40);
+		textArea_4.setBounds(0, 618, 1080, 40);
 		contentPane.add(textArea_4);
 		
 		JTextArea textArea_5 = new JTextArea();
@@ -319,6 +320,8 @@ public class KronoxGUI extends JFrame {
 		kurs1 = new JTextArea();
 		kurs1.setFont(new Font("Futura", Font.PLAIN, 32));
 		kurs1.setBounds(30, 335, 580, 1887);
+		kurs1.setFont(new Font("Futura", Font.PLAIN, 28));
+		kurs1.setBounds(27, 396, 670, 1840);
 
 		//kurs1.setBounds(27, 316, 670, 1920);
 		contentPane.add(kurs1);

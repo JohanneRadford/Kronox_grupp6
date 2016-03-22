@@ -162,6 +162,7 @@ public class ParserNew {
 		
 		gui.kurs1.append("\n"+ superDone.get(h).toString());
 		}
+
             
 			
 		
@@ -191,5 +192,5 @@ public class ParserNew {
 		return superDone;
 		
     }
+		}
 		
-}
