@@ -240,7 +240,7 @@ public class KronoxGUI extends JFrame {
 		
 		JTextArea textArea_1 = new JTextArea();
 		textArea_1.setBackground(new Color(155, 45, 45, 50));
-		textArea_1.setBounds(0, 390, 1080, 40);
+		textArea_1.setBounds(0, 400, 1080, 40);
 		contentPane.add(textArea_1);
 		
 		JTextArea textArea_2 = new JTextArea();
@@ -319,11 +319,8 @@ public class KronoxGUI extends JFrame {
 		
 		kurs1 = new JTextArea();
 		kurs1.setFont(new Font("Futura", Font.PLAIN, 32));
-		kurs1.setBounds(30, 335, 580, 1887);
-		kurs1.setFont(new Font("Futura", Font.PLAIN, 28));
-		kurs1.setBounds(27, 396, 670, 1840);
+		kurs1.setBounds(27, 372, 670, 1874);
 
-		//kurs1.setBounds(27, 316, 670, 1920);
 		contentPane.add(kurs1);
 		
 		
