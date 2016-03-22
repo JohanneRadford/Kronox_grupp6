@@ -85,7 +85,7 @@ public class KronoxGUI extends JFrame {
 
 	
 	public KronoxGUI() {
-			
+		FontMethods.setStyle();
 	
 		/**
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
