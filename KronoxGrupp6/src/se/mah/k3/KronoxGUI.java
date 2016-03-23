@@ -353,6 +353,10 @@ public class KronoxGUI extends JFrame {
 
 		contentPane.add(kurs1);
 		
+		JLabel label = new JLabel("Å");
+		label.setBounds(30, 231, 61, 16);
+		contentPane.add(label);
+		
 		
 		/**timeTextArea = new JTextArea();
 		timeTextArea.setOpaque(false);
